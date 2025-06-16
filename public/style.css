@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    margin: 25px;
+}
+
+footer {
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(58, 48, 206);
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #ff0000;
+    transition: 0.2s;
+}
+
+header {
+    width: 100%;
+    background-color: #ff0000;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.coreografia {
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    cursor: progress;
+    box-shadow: 0 4px 16px 0 rgba(0, 52, 89, 0.15), 0 1.5px 4px 0 rgba(0, 125, 167, 0.10);
+    transition: 0.3;
+}
+
+.coreografia:hover {
+    transform: scale(105%);
+    color: blue;
+    border-color: rgb(58, 48, 206);
+    transition: 0.3s;
+}
+
+.coreografia img {
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.maisinfo img {
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+}
+
+
+
+summary {
+    color: rgb(58, 48, 206);
+}
+
+body {
+    background-color: whitesmoke;
+}
